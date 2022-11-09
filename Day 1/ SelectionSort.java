@@ -22,3 +22,8 @@ class Solution
 	    }
 	}
 }
+/*  Time Complexities:
+Best Case: O(N)
+Average Case: O(N)
+Worst Case: O(N)
+/*
