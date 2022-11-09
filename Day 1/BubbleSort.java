@@ -18,3 +18,10 @@ class Solution
         }
     }
 }
+/*  Time Complexities:
+Best Case: O(N)
+Average Case: O(N^2)
+Worst Case: O(N^2)
+/*
+
+// Space Complexity: O(1)
