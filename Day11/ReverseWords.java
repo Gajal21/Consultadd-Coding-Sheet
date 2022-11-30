@@ -7,22 +7,22 @@ class Solution
     {
         // code here 
         char c[]=S.toCharArray();
-        String ans="";
-        String str="";
+        String s="";
+        String res="";
         for(int i=0; i<c.length; i++){
             
            if(c[i]!='.'){
-               str=str+c[i];
+               s=s+c[i];
            }
            
            else{
-                ans="."+str+ans;
-                str="";
+                res="."+s+ res;
+                s="";
            }
            
         }
        
-        ans=str+ans;
-        return ans;
+         res=s+ res;
+        return  res;
     }
 }
